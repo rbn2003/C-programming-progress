@@ -1,0 +1,25 @@
+#include<stdio.h>
+int main()
+{
+	int a,b;
+	Printf("Enter any two numbers");
+	scanf("%d %d", &a, &b);
+   	
+	if (a>b)
+	{
+		printf ("%d",a);
+	}
+	
+	else if (b>a)
+	
+	{
+		printf ("%d",b);
+	}
+	
+	else if (a=b)
+	
+	{
+	    printf("Both are equal");
+    }
+}
+
